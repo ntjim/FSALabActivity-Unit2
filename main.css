@@ -6,3 +6,40 @@ html * {
     display: inline;
     padding-right: 50px;
 }
+
+.featuredcontent img {
+    width: 400px;
+    height: auto;
+}
+
+.recipes img {
+    width: 400px;
+    height: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+input[type=submit] {
+    width: 80px;
+
+}
+
+input[type=checkbox], label[for=agreetc] {
+    display: inline;
+    width: auto;
+}
+
+textarea {
+    display: block;
+    width: 400px;
+    margin-bottom: 25px;
+}
