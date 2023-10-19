@@ -1,10 +1,54 @@
 html * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0 0 0 0;
+}
+
+.header {
+    padding: 10px;
+    background-color: #A5D99D;
+    margin: 0 auto 0 auto;
+}
+
+.header h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.header .nav {
+    text-align: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 10px;
 }
 
 .nav li {
     display: inline;
     padding-right: 50px;
+}
+
+.featuredcontent {
+    width: 400px;
+    margin: 20px auto 50px auto;
+}
+
+.featuredcontent h4 {
+    margin-bottom: 5px;
+}
+
+.featuredcontent a {
+    text-decoration: none;
+    color: #26691c;
 }
 
 .featuredcontent img {
@@ -17,20 +61,49 @@ html * {
     height: auto;
 }
 
+.recipes ol {
+    width: 600px;
+}
+
+.recipelist h3 {
+    text-align: center;
+}
+
+.recipelist ul {
+    list-style-type: none;
+}
+
+.recipelist li {
+    width: 640px;
+    height: 180px;
+    border: 1px solid #24b35d;
+    padding: 20px 15px 0 15px;
+    margin: 20px auto 0 auto;
+}
+
+.recipelist img {
+    width: 145px;
+    height: 160px;
+    padding-right: 20px;
+    float: left;
+}
+
 label {
     display: block;
     font-weight: bold;
+    margin: 5px 2px 5px 0;
 }
 
 input {
     display: block;
     width: 400px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    padding: 3px 3px 3px 3px;
 }
 
 input[type=submit] {
     width: 80px;
-
+    margin: 0 auto 50px auto;
 }
 
 input[type=checkbox], label[for=agreetc] {
@@ -41,5 +114,17 @@ input[type=checkbox], label[for=agreetc] {
 textarea {
     display: block;
     width: 400px;
-    margin-bottom: 25px;
+    height: 150px;
+    margin-bottom: 15px;
+    padding: 6px 6px 6px 6px;
+}
+
+form {
+    width: 400px;
+    margin: 30px auto 0 auto;
+}
+
+.formtitle {
+    text-align: center;
+    padding: 10px;
 }
