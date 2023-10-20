@@ -84,6 +84,7 @@ footer {
     padding: 30px;
     grid-column-start: 2;
     grid-column-end: 3;
+
 }
 
 .recipeimg img {
@@ -91,9 +92,6 @@ footer {
     height: auto;
 }
 
-.recipetext ol {
-    width: 600px;
-}
 
 .recipeadditionalphotos img {
     width: 150px;
@@ -141,9 +139,10 @@ input {
     padding: 3px 3px 3px 3px;
 }
 
-input[type=submit] {
+button {
     width: 80px;
     margin: 0 auto 50px auto;
+    display: block;
 }
 
 input[type=checkbox], label[for=agreetc] {
